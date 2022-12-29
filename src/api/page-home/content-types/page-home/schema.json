@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_homes",
+  "info": {
+    "singularName": "page-home",
+    "pluralName": "page-homes",
+    "displayName": "page-home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionservice": {
+      "displayName": "Section Service",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.section-service"
+    },
+    "metatag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.metatag"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "impressums",
+  "info": {
+    "singularName": "impressum",
+    "pluralName": "impressums",
+    "displayName": "Impressum",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "inhaltText": {
+      "type": "richtext"
+    },
+    "metatag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.metatag"
+    }
+  }
+}

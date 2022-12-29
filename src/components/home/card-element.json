@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_card_elements",
+  "info": {
+    "displayName": "CardElement",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "name_for_technical_use": {
+      "type": "string"
+    }
+  }
+}

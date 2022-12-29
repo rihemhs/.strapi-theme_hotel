@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_section_services",
+  "info": {
+    "displayName": "Section Service",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "CartElement": {
+      "displayName": "CardElement",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.card-element"
+    }
+  }
+}
